@@ -1,0 +1,236 @@
+<?xml version="1.0"?>
+<class>
+	<testCase ID="TC_393">
+		<test name="doneBTN" type="id" value="lst-ib" />
+		<test name="checkBOX" type="id" value="id_0009" />
+	</testCase>
+
+	<testCase ID="TC_493">
+		<test name="img" type="xp" value="//img[@name='krishna']" />
+		<test name="radioBTM" type="id" value="id_0007" />
+	</testCase>
+	<!-- <testCase ID="TC_16713"> <test name="Link1" type="XP" value="//html/body/table[2]/tbody/tr/th/table/tbody/tr[3]/td[1]/div/font/a" 
+		/> </testCase> -->
+
+	<!-- <testCase ID="TC_16518"> <test name="Test1" type="XP" value="//*[@id='div1']/font" 
+		/> <test name="Test3" type="XP" value="//*[@id='div3']/font" /> <test name="Test5" 
+		type="XP" value="//*[@id='div5']/font" /> <test name="Test8" type="XP" value="//*[@id='div8']/font" 
+		/> <test name="Test12" type="XP" value="//*[@id='div12']/font" /> <test name="Test13" 
+		type="XP" value="//*[@id='div13']/font" /> <test name="Test14" type="XP" 
+		value="//*[@id='div14']/font" /> <test name="Test15" type="XP" value="//*[@id='div15']/font" 
+		/> <test name="Test19" type="XP" value="//*[@id='div16']/font" /> </testCase> -->
+
+	<testCase ID="TC_16713">
+		<test name="Test1" type="XP"
+			value="//html/body/table[2]/tbody/tr/th/table/tbody/tr[4]/td[1]" />
+		<test name="Test3" type="XP"
+			value="//html/body/table[2]/tbody/tr/th/table/tbody/tr[10]/td" />
+		<test name="Test5" type="XP" value="//*[@id='div5']/font" />
+		<test name="Test8" type="XP" value="//*[@id='div8']/font" />
+		<test name="Test9" type="XP" value="//*[@id='rewind']/embed" />
+		<test name="Test14" type="XP" value="//*[@id='div12']/font" />
+		<test name="Test15" type="XP"
+			value="//html/body/table[2]/tbody/tr/th/table/tbody/tr[38]/td" />
+		<test name="Test16" type="XP"
+			value="//html/body/table[2]/tbody/tr/th/table/tbody/tr[41]/td" />
+		<test name="Test17" type="XP"
+			value="//html/body/table[2]/tbody/tr/th/table/tbody/tr[44]/td" />
+		<test name="Test21" type="XP" value="//*[@id='div16']/font" />
+		<test name="Test23" type="XP" value="//*[@id='tstopplay']/embed" />
+		<test name="Test25" type="XP"
+			value="//html/body/table[2]/tbody/tr/th/table/tbody/tr[62]/td" />
+		<test name="GotoFrame" type="XP" value="//*[@id='gotoframe']/embed" />
+		<test name="LoadMovie" type="XP" value="//*[@id='loadmovie']/embed" />
+		<test name="Pan" type="XP" value="//*[@id='pan']/embed" />
+		<test name="Rewind" type="XP" value="//*[@id='rewind']/embed" />
+		<test name="SetVariable" type="XP" value="//*[@id='setvariable']/embed" />
+		<test name="SetZoomRect" type="XP" value="//*[@id='setzoomrect']/embed" />
+		<test name="TGotoFrame" type="XP" value="//*[@id='tgotoframe']/embed" />
+		<test name="TGotoLabel" type="XP" value="//*[@id='tgotolabel']/embed" />
+		<test name="TSetProperty" type="XP" value="//*[@id='tsetproperty']/embed" />
+		<test name="Zoom" type="XP" value="//*[@id='zoom']/embed" />
+		<test name="TPlay" type="XP" value="//*[@id='tplay']/embed" />
+		<test name="TStopPlay" type="XP" value="//*[@id='tstopplay']/embed" />
+		<test name="TCallFrame" type="XP" value="//*[@id='tcallframe']/embed" />
+		<test name="TCallLabel" type="XP" value="//*[@id='tcalllabel']/embed" />
+	</testCase>
+
+	<testCase ID="TC_16518">
+		<test name="Test1" type="XP" value="//*[@id='div1']/font" />
+		<test name="Test3" type="XP" value="//*[@id='div3']/font" />
+		<test name="Test5" type="XP" value="//*[@id='div5']/font" />
+		<test name="Test8" type="XP" value="//*[@id='div8']/font" />
+		<test name="Test12" type="XP" value="//*[@id='div12']/font" />
+		<test name="Test13" type="XP" value="//*[@id='div13']/font" />
+		<test name="Test14" type="XP" value="//*[@id='div14']/font" />
+		<test name="Test15" type="XP" value="//*[@id='div15']/font" />
+		<test name="Test19" type="XP" value="//*[@id='div16']/font" />
+		<test name="Test20" type="XP" value="//*[@id='tplay']/embed" />
+		<test name="GotoFrame" type="XP" value="//*[@id='gotoframe']/embed" />
+		<test name="LoadMovie" type="XP" value="//*[@id='loadmovie']/embed" />
+		<test name="Pan" type="XP" value="//*[@id='pan']/embed" />
+		<test name="Rewind" type="XP" value="//*[@id='rewind']/embed" />
+		<test name="SetVariable" type="XP" value="//*[@id='setvariable']/embed" />
+		<test name="SetZoomRect" type="XP" value="//*[@id='setzoomrect']/embed" />
+		<test name="TGotoFrame" type="XP" value="//*[@id='tgotoframe']/embed" />
+		<test name="TGotoLabel" type="XP" value="//*[@id='tgotolabel']/embed" />
+		<test name="TSetProperty" type="XP" value="//*[@id='tsetproperty']/embed" />
+		<test name="Zoom" type="XP" value="//*[@id='zoom']/embed" />
+		<test name="TPlay" type="XP" value="//*[@id='tplay']/embed" />
+		<test name="TStopPlay" type="XP" value="//*[@id='tstopplay']/embed" />
+	</testCase>
+	<testCase ID="TC_44954">
+		<test name="TextField" type="XP" value="//html/body/div[5]/ul/form/input" />
+		<test name="RandomHTML" type="XP" value="//html/body/h3[1]" />
+		<test name="Div" type="XP" value="//html/body/center/embed" />
+
+	</testCase>
+
+	<testCase ID="TC_16694">
+		<test name="Loop" type="XP" value="//html/body/table[2]/tbody/tr[4]/td[2]" />
+		<test name="Print" type="XP"
+			value="//html/body/table[2]/tbody/tr[6]/td[2]/a/object/embed" />
+		<test name="Play" type="XP" value="//html/body/table[2]/tbody/tr[8]/td[2]" />
+		<test name="Rewind" type="XP"
+			value="//html/body/table[2]/tbody/tr[10]/td[2]" />
+		<test name="LowQuality" type="XP"
+			value="//html/body/table[2]/tbody/tr[12]/td[2]" />
+		<test name="MediumQuality" type="XP"
+			value="//html/body/table[2]/tbody/tr[14]/td[2]" />
+		<test name="HighQuality" type="XP"
+			value="/html/body/table[2]/tbody/tr[16]/td[2]" />
+
+	</testCase>
+	<testCase ID="TC_46325">
+		<test name="TextField" type="XP" value="//html/body/div[5]/ul/form/input" />
+		<test name="RandomHTML" type="XP" value="//html/body/h3[1]" />
+	</testCase>
+
+	<testCase ID="TC_30466">
+		<test name="Div" type="XP" value="//*[@id='FPLogoMouseCursor']/object" />
+	</testCase>
+
+	<testCase ID="TC_30470">
+		<test name="Div" type="XP" value="/html/body/object/embed" />
+	</testCase>
+
+	<testCase ID="TC_33800">
+		<test name="Div" type="XP" value="/html/body/object/embed" />
+	</testCase>
+
+	<testCase ID="TC_38950">
+		<test name="Div" type="XP" value="//*[@id='recJSObjIE']/embed" />
+	</testCase>
+
+	<testCase ID="TC_41627">
+		<test name="Div" type="XP" value="//*[@id='FormComboBox']" />
+	</testCase>
+
+	<testCase ID="TC_41628">
+		<test name="Div" type="XP" value="/html/body/object" />
+	</testCase>
+
+	<testCase ID="TC_41655">
+		<test name="Div" type="XP" value="//*[@id='plugin']" />
+	</testCase>
+
+	<testCase ID="TC_43098">
+		<test name="Div" type="XP" value="//*[@id='CheckPolicyFile5']/object" />
+	</testCase>
+
+	<testCase ID="TC_44757">
+		<test name="Div" type="XP" value="//*[@id='FlashID1']/object" />
+	</testCase>
+
+	<testCase ID="TC_45856">
+		<test name="Div" type="XP" value="//*[@id='external_interface_multibyte']" />
+	</testCase>
+
+
+	<testCase ID="TC_45857">
+		<test name="Div" type="XP" value="//*[@id='external_interface_multibyte']" />
+	</testCase>
+
+	<testCase ID="TC_45858">
+		<test name="Div" type="XP" value="//*[@id='external_interface_multibyte']" />
+	</testCase>
+
+	<testCase ID="TC_45859">
+		<test name="Div" type="XP" value="//*[@id='external_interface_multibyte']" />
+	</testCase>
+
+	<testCase ID="TC_45860">
+		<test name="Div" type="XP" value="//*[@id='external_interface_multibyte']" />
+	</testCase>
+
+	<testCase ID="TC_45357">
+		<test name="Div" type="XP" value="//*[@id='plugin']" />
+	</testCase>
+
+	<testCase ID="TC_45357">
+		<test name="Div" type="XP" value="//*[@id='plugin']" />
+	</testCase>
+
+	<testCase ID="TC_45323">
+		<test name="Div" type="XP" value="//*[@id='bug_3345587']/object" />
+	</testCase>
+
+	<testCase ID="TC_44895">
+		<test name="Div" type="XP" value="/html/body" />
+	</testCase>
+
+	<testCase ID="TC_44182">
+		<test name="Div" type="XP" value="//*[@id='FormwithDeviceFont']" />
+	</testCase>
+
+	<testCase ID="TC_44134">
+		<test name="Div" type="XP" value="/html/body/object" />
+	</testCase>
+
+	<testCase ID="TC_43947">
+		<test name="Div" type="XP" value="/html/body" />
+	</testCase>
+
+	<testCase ID="TC_43067">
+		<test name="Div" type="XP" value="/html/body/object/embed" />
+	</testCase>
+
+	<testCase ID="TC_40520">
+		<test name="Div" type="XP" value="//*[@id='bug2814734']/object" />
+	</testCase>
+
+	<testCase ID="TC_38865">
+		<test name="Div" type="XP" value="//*[@id='Captivate']" />
+	</testCase>
+
+	<testCase ID="TC_29797">
+		<test name="Div" type="XP" value="//*[@id='FlashID']/object" />
+	</testCase>
+
+	<testCase ID="TC_19818">
+		<test name="Div" type="XP" value="/html/body/embed" />
+	</testCase>
+
+	<testCase ID="TC_16795">
+		<test name="Div" type="XP"
+			value="//*[@id='HTMLvars_URLQueryStringVariable']/embed" />
+		<test name="Div1" type="XP" value="//*[@id='plugin']" />
+	</testCase>
+
+	<testCase ID="TC_16776">
+		<test name="Div" type="XP" value="//*[@id='Param_stop']/embed" />
+	</testCase>
+
+	<testCase ID="TC_16519">
+		<test name="Div" type="XP" value="/html/body" />
+	</testCase>
+
+	<testCase ID="TC_16711">
+		<test name="Div" type="XP" value="//*[@id='PrintAPI_XYScale']/embed" />
+	</testCase>
+
+	<testCase ID="TC_16757">
+		<test name="Div" type="XP" value="/html/body/object/embed" />
+	</testCase>
+
+</class>

@@ -1,0 +1,344 @@
+<?xml version="1.0"?>
+<class>
+
+	<testCase ID="Base">
+		<test name="CH_ChangeBTN" value="BaseLineImage/TC_print/win_chrome/CH_ChangeBTN" />
+	</testCase>
+
+
+	<testCase ID="TC_print">
+		<test name="CH_ChangeBTN" value="BaseLineImage/TC_print/win_chrome/CH_ChangeBTN" />
+		<test name="CH_Save_as_PDF" value="BaseLineImage/TC_print/win_chrome/CH_Save_as_PDF" />
+		<test name="CH_saveBTN" value="BaseLineImage/TC_print/win_chrome/CH_saveBTN" />
+		<test name="Win_saveBTN" value="BaseLineImage/TC_print/win_chrome/Win_saveBTN" />
+		<test name="Win_fileName" value="BaseLineImage/TC_print/win_chrome/Win_fileName" />
+		<test name="IE_micrsoftXPS" value="BaseLineImage/TC_print/win_ie/micrsoftXPS" />
+		<test name="firefox_SendToOneNote" value="BaseLineImage/TC_print/win_firefox/SendToOneNote" />
+		<test name="firefox_AdobePDF" value="BaseLineImage/TC_print/win_firefox/AdobePDF" />
+		<test name="firefox_OK" value="BaseLineImage/TC_print/win_firefox/OK" />
+
+
+		<test name="macCH_SaveAS" value="BaseLineImage/TC_print/mac/macCH/SaveAS" />
+		<test name="macCH_GotoTHEfolder" value="BaseLineImage/TC_print/mac/macCH/GotoTHEfolder" />
+		<test name="macCH_Go" value="BaseLineImage/TC_print/mac/macCH/Go" />
+		<test name="macCH_Save" value="BaseLineImage/TC_print/mac/macCH/Save" />
+		<test name="macCH_Ok" value="BaseLineImage/TC_print/mac/macCH/Ok" />
+		<test name="macCH_PDF" value="BaseLineImage/TC_print/mac/macCH/PDF" />
+		<test name="macCH_SaveASPDF" value="BaseLineImage/TC_print/mac/macCH/SaveASPDF" />
+	</testCase>
+
+	<!-- TestCases -->
+
+	<testCase ID="TC_30466">
+		<mac>
+			<test name="BackGround" value="BaseLineImage/TC_30466/mac/BackGround" />
+		</mac>
+		<test name="BackGround" value="BaseLineImage/TC_30466/BackGround" />
+	</testCase>
+	<testCase ID="TC_30470">
+		<win>
+			<firefox>
+				<test name="Capture1" value="BaseLineImage/TC_30470/win/firefox/Capture1" />
+				<test name="Capture2" value="BaseLineImage/TC_30470/win/firefox/Capture2" />
+				<test name="Capture3" value="BaseLineImage/TC_30470/win/firefox/Capture3" />
+			</firefox>
+			<chrome>
+				<test name="Capture1" value="BaseLineImage/TC_30470/win/Capture1" />
+				<test name="Capture2" value="BaseLineImage/TC_30470/win/Capture2" />
+				<test name="Capture3" value="BaseLineImage/TC_30470/win/Capture3" />
+			</chrome>
+		</win>
+		<mac>
+
+			<test name="Capture1" value="BaseLineImage/TC_30470/mac/Capture1" />
+			<test name="Capture2" value="BaseLineImage/TC_30470/mac/Capture2" />
+			<test name="Capture3" value="BaseLineImage/TC_30470/mac/Capture3" />
+		</mac>
+	</testCase>
+	<testCase ID="TC_33800">
+		<test name="Capture1" value="BaseLineImage/TC_33800/Capture1" />
+		<test name="Capture2" value="BaseLineImage/TC_33800/Capture2" />
+		<test name="Capture3" value="BaseLineImage/TC_33800/Capture3" />
+		<mac>
+			<test name="Capture1" value="BaseLineImage/TC_33800/mac/Capture1" />
+			<test name="Capture2" value="BaseLineImage/TC_33800/mac/Capture2" />
+			<test name="Capture3" value="BaseLineImage/TC_33800/mac/Capture3" />
+		</mac>
+	</testCase>
+	<testCase ID="TC_38950">
+		<win>
+			<firefox>
+				<test name="Capture1" value="BaseLineImage/TC_38950/win/firefox/Capture1" />
+				<test name="Capture2" value="BaseLineImage/TC_38950/win/firefox/Capture2" />
+				<test name="Capture3" value="BaseLineImage/TC_38950/win/firefox/Capture3" />
+			</firefox>
+			<chrome>
+				<test name="Capture1" value="BaseLineImage/TC_38950/win/Capture1" />
+				<test name="Capture2" value="BaseLineImage/TC_38950/win/Capture2" />
+				<test name="Capture3" value="BaseLineImage/TC_38950/win/Capture3" />
+			</chrome>
+		</win>
+		<mac>
+			<test name="Capture1" value="BaseLineImage/TC_38950/mac/Capture1" />
+			<test name="Capture2" value="BaseLineImage/TC_38950/mac/Capture2" />
+			<test name="Capture3" value="BaseLineImage/TC_38950/mac/Capture3" />
+		</mac>
+	</testCase>
+	<testCase ID="TC_41627">
+		<win>
+			<firefox>
+				<test name="Capture0" value="BaseLineImage/TC_41627/win/firefox/Capture0" />
+				<test name="Capture1" value="BaseLineImage/TC_41627/win/firefox/Capture1" />
+				<test name="Capture2" value="BaseLineImage/TC_41627/win/firefox/Capture2" />
+				<test name="Capture3" value="BaseLineImage/TC_41627/win/firefox/Capture3" />
+				<test name="Capture4" value="BaseLineImage/TC_41627/win/firefox/Capture4" />
+				<test name="Capture5" value="BaseLineImage/TC_41627/win/firefox/Capture5" />
+				<test name="Capture6" value="BaseLineImage/TC_41627/win/firefox/Capture6" />
+			</firefox>
+			<chrome>
+				<test name="Capture0" value="BaseLineImage/TC_41627/win/Capture0" />
+				<test name="Capture1" value="BaseLineImage/TC_41627/win/Capture1" />
+				<test name="Capture2" value="BaseLineImage/TC_41627/win/Capture2" />
+				<test name="Capture3" value="BaseLineImage/TC_41627/win/Capture3" />
+				<test name="Capture4" value="BaseLineImage/TC_41627/win/Capture4" />
+				<test name="Capture5" value="BaseLineImage/TC_41627/win/Capture5" />
+				<test name="Capture6" value="BaseLineImage/TC_41627/win/Capture6" />
+			</chrome>
+		</win>
+	</testCase>
+	<testCase ID="TC_41628">
+		<test name="Print1" value="BaseLineImage/TC_41628/Print1" />
+		<test name="PrintBtn" value="BaseLineImage/TC_41628/PrintBtn" />
+		<test name="AfterPrint" value="BaseLineImage/TC_41628/AfterPrint" />
+		<test name="pdfCap" value="BaseLineImage/TC_41628/pdfCap" />
+	</testCase>
+	<testCase ID="TC_41655">
+		<win>
+			<firefox>
+				<test name="Security" value="BaseLineImage/TC_41655/win/firefox/Security" />
+				<test name="okBtn" value="BaseLineImage/TC_41655/win/firefox/okBtn" />
+				<test name="bG" value="BaseLineImage/TC_41655/win/firefox/bG" />
+			</firefox>
+			<chrome>
+				<test name="Security" value="BaseLineImage/TC_41655/win/Security" />
+				<test name="okBtn" value="BaseLineImage/TC_41655/win/okBtn" />
+				<test name="bG" value="BaseLineImage/TC_41655/win/bG" />
+			</chrome>
+		</win>
+	</testCase>
+	<testCase ID="TC_43098">
+		<test name="CheckPol" value="BaseLineImage/TC_43098/CheckPol" />
+	</testCase>
+	<testCase ID="TC_44757">
+		<test name="Print1" value="BaseLineImage/TC_44757/Print1" />
+		<test name="PrintBtn" value="BaseLineImage/TC_44757/PrintBtn" />
+	</testCase>
+	<testCase ID="TC_44182">
+		<test name="EXP_IMG" value="BaseLineImage/TC_44182/EXP_IMG" />
+	</testCase>
+
+	<testCase ID="TC_44895">
+		<test name="SWFbox" value="BaseLineImage/TC_44895/SWFbox" />
+	</testCase>
+	<testCase ID="TC_45357">
+		<test name="clickME" value="BaseLineImage/TC_45357/clickME" />
+		<test name="Capture1" value="BaseLineImage/TC_45357/Capture1" />
+	</testCase>
+	
+
+	<!-- TestCases -->
+
+
+
+
+	<testCase ID="TC_45323">
+		<test name="hello" value="BaseLineImage/TC_45323/helloWord" />
+	</testCase>
+
+	<testCase ID="TC_44954">
+		<test name="doneBTN" value="BaseLineImage/TC_44954/done" />
+		<test name="checkBOX" value="BaseLineImage/TC_44954/checkBox" />
+	</testCase>
+
+	<testCase ID="TC_16711">
+		<test name="ExpImage" value="BaseLineImage/TC_16711/ExpImage" />
+		<test name="Negative_ExpImage" value="BaseLineImage/TC_16711/Negative_ExpImage" />
+		<test name="printBTN" value="BaseLineImage/TC_16711/printBTN" />
+	</testCase>
+
+	<testCase ID="TC_38865">
+		<test name="Screen1" value="BaseLineImage/TC_38865/Screen1" />
+		<test name="Screen2" value="BaseLineImage/TC_38865/Screen2" />
+		<test name="Screen3" value="BaseLineImage/TC_38865/Screen3" />
+		<test name="Screen4" value="BaseLineImage/TC_38865/Screen4" />
+		<test name="Screen5" value="BaseLineImage/TC_38865/Screen5" />
+	</testCase>
+
+
+	<testCase ID="TC_45860">
+		<mac>
+			<test name="Green" value="BaseLineImage/TC_45860/mac/Green" />
+		</mac>
+		<test name="Green" value="BaseLineImage/TC_45860/Green" />
+	</testCase>
+	<testCase ID="TC_45858">
+		<mac>
+			<test name="Green" value="BaseLineImage/TC_45858/mac/Green" />
+		</mac>
+		<test name="Green" value="BaseLineImage/TC_45858/Green" />
+	</testCase>
+	<testCase ID="TC_45859">
+		<mac>
+			<test name="Green" value="BaseLineImage/TC_45859/mac/Green" />
+		</mac>
+		<test name="Green" value="BaseLineImage/TC_45859/Green" />
+	</testCase>
+	<testCase ID="TC_45856">
+		<mac>
+			<test name="Green" value="BaseLineImage/TC_45856/mac/Green" />
+		</mac>
+		<test name="Green" value="BaseLineImage/TC_45856/Green" />
+	</testCase>
+	<testCase ID="TC_45857">
+		<mac>
+			<test name="Green" value="BaseLineImage/TC_45857/mac/Green" />
+		</mac>
+		<test name="Green" value="BaseLineImage/TC_45857/Green" />
+	</testCase>
+	<testCase ID="TC_40520">
+		<test name="Mask" value="BaseLineImage/TC_40520/Mask_CHM" />
+	</testCase>
+	<testCase ID="TC_16519">
+		<test name="Mask" value="BaseLineImage/TC_16519/FlashMovieClip" />
+		<test name="IsAnimating" value="BaseLineImage/TC_16519/IsAnimating" />
+	</testCase>
+	<testCase ID="TC_16776">
+		<test name="Noanimation" value="BaseLineImage/TC_16776/Noanimation" />
+	</testCase>
+	<testCase ID="TC_29797">
+		<win>
+			<chrome>
+				<test name="Textfield1" value="BaseLineImage/TC_29797/win/chrome/Textfield1" />
+				<test name="Result" value="BaseLineImage/TC_29797/win/chrome/Result" />
+			</chrome>
+			<test name="Textfield1" value="BaseLineImage/TC_29797/win/Textfield1" />
+			<test name="Result" value="BaseLineImage/TC_29797/win/Result" />
+		</win>
+	</testCase>
+	<testCase ID="TC_16518">
+		<win>
+			<chrome>
+				<test name="Test4" value="BaseLineImage/TC_16518/win/chrome/Test4" />
+				<test name="Test6" value="BaseLineImage/TC_16518/win/chrome/Test6" />
+				<test name="Test7" value="BaseLineImage/TC_16518/win/chrome/Test7" />
+				<test name="Test9" value="BaseLineImage/TC_16518/win/chrome/Test9" />
+				<test name="Test10" value="BaseLineImage/TC_16518/win/chrome/Test10" />
+				<test name="Test11" value="BaseLineImage/TC_16518/win/chrome/Test11" />
+				<test name="Test16" value="BaseLineImage/TC_16518/win/chrome/Test16" />
+				<test name="Test17" value="BaseLineImage/TC_16518/win/chrome/Test17" />
+				<test name="Test18" value="BaseLineImage/TC_16518/win/chrome/Test18" />
+				<test name="Test_20_1" value="BaseLineImage/TC_16518/win/chrome/Test_20_1" />
+				<test name="Test_20_2" value="BaseLineImage/TC_16518/win/chrome/Test_20_2" />
+				<test name="Test_20_3" value="BaseLineImage/TC_16518/win/chrome/Test_20_3" />
+				<test name="Test21" value="BaseLineImage/TC_16518/win/chrome/Test21" />
+				<test name="Test22" value="BaseLineImage/TC_16518/win/chrome/Test22" />
+
+			</chrome>
+			<firefox>
+				<test name="Test4" value="BaseLineImage/TC_16518/win/firefox/Test4" />
+				<test name="Test6" value="BaseLineImage/TC_16518/win/firefox/Test6" />
+				<test name="Test7" value="BaseLineImage/TC_16518/win/firefox/Test7" />
+				<test name="Test9" value="BaseLineImage/TC_16518/win/firefox/Test9" />
+				<test name="Test10" value="BaseLineImage/TC_16518/win/firefox/Test10" />
+				<test name="Test11" value="BaseLineImage/TC_16518/win/firefox/Test11" />
+				<test name="Test16" value="BaseLineImage/TC_16518/win/firefox/Test16" />
+				<test name="Test17" value="BaseLineImage/TC_16518/win/firefox/Test17" />
+				<test name="Test18" value="BaseLineImage/TC_16518/win/firefox/Test18" />
+				<test name="Test_20_1" value="BaseLineImage/TC_16518/win/firefox/Test_20_1" />
+				<test name="Test_20_2" value="BaseLineImage/TC_16518/win/firefox/Test_20_2" />
+				<test name="Test_20_3" value="BaseLineImage/TC_16518/win/firefox/Test_20_3" />
+				<test name="Test21" value="BaseLineImage/TC_16518/win/firefox/Test21" />
+				<test name="Test22" value="BaseLineImage/TC_16518/win/firefox/Test22" />
+			</firefox>
+			<test name="Textfield1" value="BaseLineImage/TC_29797/win/Textfield1" />
+			<test name="Result" value="BaseLineImage/TC_29797/win/Result" />
+		</win>
+	</testCase>
+	<testCase ID="TC_16757">
+		<test name="TextStart" value="BaseLineImage/TC_16757/TextStart" />
+		<test name="TextEnd" value="BaseLineImage/TC_16757/TextEnd" />
+		<test name="TotalText" value="BaseLineImage/TC_16757/TotalText" />
+		<test name="ResultOnNotePad" value="BaseLineImage/TC_16757/ResultOnNotePad" />
+	</testCase>
+
+	<testCase ID="TC_16713">
+		<test name="Test4" value="BaseLineImage/TC_16713/Test4" />
+		<test name="Test6" value="BaseLineImage/TC_16713/Test6" />
+		<test name="Test7" value="BaseLineImage/TC_16713/Test7" />
+		<test name="Test9_1" value="BaseLineImage/TC_16713/Test9_1" />
+		<test name="Test9_2" value="BaseLineImage/TC_16713/Test9_2" />
+		<test name="Test9_3" value="BaseLineImage/TC_16713/Test9_3" />
+		<test name="Test10" value="BaseLineImage/TC_16713/Test10" />
+		<test name="Test11" value="BaseLineImage/TC_16713/Test11" />
+		<test name="Test12" value="BaseLineImage/TC_16713/Test12" />
+		<test name="Test13" value="BaseLineImage/TC_16713/Test13" />
+		<test name="Test18" value="BaseLineImage/TC_16713/Test18" />
+		<test name="Test19" value="BaseLineImage/TC_16713/Test19" />
+		<test name="Test20" value="BaseLineImage/TC_16713/Test20" />
+		<test name="Test22" value="BaseLineImage/TC_16713/Test22" />
+		<test name="Test23_1" value="BaseLineImage/TC_16713/Test23_1" />
+		<test name="Test23_2" value="BaseLineImage/TC_16713/Test23_2" />
+		<test name="Test24" value="BaseLineImage/TC_16713/Test24" />
+	</testCase>
+
+	<testCase ID="TC_16795">
+		<test name="Link" value="BaseLineImage/TC_16795/Link" />
+		<test name="Result" value="BaseLineImage/TC_16795/Result" />
+	</testCase>
+	<testCase ID="TC_16694">
+		<win>
+			<chrome>
+				<test name="ContextMenu" value="BaseLineImage/TC_16694/win/chrome/ContextMenu" />
+				<test name="CaptureLogo" value="BaseLineImage/TC_16694/win/chrome/CaptureLogo" />
+				<test name="CapturePrint" value="BaseLineImage/TC_16694/win/chrome/CapturePrint" />
+
+				<test name="ContextLoop" value="BaseLineImage/TC_16694/win/chrome/ContextLoop" />
+				<test name="LoopResult" value="BaseLineImage/TC_16694/win/chrome/LoopResult" />
+				<test name="PrintResult" value="BaseLineImage/TC_16694/win/chrome/PrintResult" />
+				<test name="ContextMenu2" value="BaseLineImage/TC_16694/win/chrome/ContextMenu2" />
+				<test name="ContextMenu3" value="BaseLineImage/TC_16694/win/chrome/ContextMenu3" />
+				<test name="ContextPlay" value="BaseLineImage/TC_16694/win/chrome/ContextPlay" />
+				<test name="Test3" value="BaseLineImage/TC_16694/win/chrome/Test3" />
+				<test name="ContextMenu4" value="BaseLineImage/TC_16694/win/chrome/ContextMenu4" />
+				<test name="ContextRewind" value="BaseLineImage/TC_16694/win/chrome/ContextRewind" />
+				<test name="RewindResult" value="BaseLineImage/TC_16694/win/chrome/RewindResult" />
+				<test name="RewindResult1" value="BaseLineImage/TC_16694/win/chrome/RewindResult1" />
+				<test name="ContextQuality" value="BaseLineImage/TC_16694/win/chrome/ContextQuality" />
+				<test name="ContextQualitySubMenu"
+					value="BaseLineImage/TC_16694/win/chrome/ContextQualitySubMenu" />
+				<test name="Low" value="BaseLineImage/TC_16694/win/chrome/Low" />
+				<test name="Medium" value="BaseLineImage/TC_16694/win/chrome/Medium" />
+				<test name="High" value="BaseLineImage/TC_16694/win/chrome/High" />
+				<test name="ResultQualityLow1"
+					value="BaseLineImage/TC_16694/win/chrome/ResultQualityLow1" />
+				<test name="ResultQualityLow" value="BaseLineImage/TC_16694/win/chrome/ResultQualityLow" />
+				<test name="ResultQualityMedium1"
+					value="BaseLineImage/TC_16694/win/chrome/ResultQualityMedium1" />
+				<test name="ResultQualityMedium"
+					value="BaseLineImage/TC_16694/win/chrome/ResultQualityMedium" />
+
+				<test name="ResultQualityHigh"
+					value="BaseLineImage/TC_16694/win/chrome/ResultQualityHigh" />
+			</chrome>
+		</win>
+
+
+	</testCase>
+
+	<testCase ID="TC_19818">
+		<test name="TestDone" value="BaseLineImage/TC_19818/TestDone" />
+
+	</testCase>
+
+
+</class>

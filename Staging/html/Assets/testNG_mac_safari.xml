@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+
+
+
+<suite name="HTML_Automation">
+	<listeners>
+		<listener class-name="utill.TestListener" />
+		<listener class-name="utill.TestStatistics" />
+	</listeners>
+	<test name="HTML_Certification">
+		<parameter name="browser" value="safari" />
+		<parameter name="OS" value="mac" />
+		<classes>
+			<class name="htmlTestCase.Base" />
+
+			<class name="htmlTestCase.TC_44954" />
+			<class name="htmlTestCase1.TC_33800" />
+			
+		<!-- 	<class name="htmlTestCase.TC_16519" />
+			<class name="htmlTestCase.TC_16711" />
+			<class name="htmlTestCase.TC_16757" />
+			<class name="htmlTestCase.TC_16776" />
+			<class name="htmlTestCase.TC_16795" />
+			<class name="htmlTestCase.TC_19818" />
+			<class name="htmlTestCase.TC_29797" />
+			<class name="htmlTestCase.TC_38865" />
+			<class name="htmlTestCase.TC_40520" />
+			<class name="htmlTestCase.TC_42239" />
+			<class name="htmlTestCase.TC_43067" />
+			<class name="htmlTestCase.TC_43947" />
+			<class name="htmlTestCase.TC_44134" />
+			<class name="htmlTestCase.TC_44182" />
+			<class name="htmlTestCase.TC_44895" />
+			<class name="htmlTestCase.TC_44954" />
+			<class name="htmlTestCase.TC_45323" />
+			<class name="htmlTestCase.TC_45357" />
+			<class name="htmlTestCase.TC_45856" />
+			<class name="htmlTestCase.TC_45857" />
+			<class name="htmlTestCase.TC_45858" />
+			<class name="htmlTestCase.TC_45859" />
+			<class name="htmlTestCase.TC_45860" />
+
+			<class name="htmlTestCase1.TC_30466" />
+			<class name="htmlTestCase1.TC_30470" />
+			<class name="htmlTestCase1.TC_33800" />
+			<class name="htmlTestCase1.TC_38950" />
+			<class name="htmlTestCase1.TC_41627" />
+			<class name="htmlTestCase1.TC_41628" />
+			<class name="htmlTestCase1.TC_41655" />
+			<class name="htmlTestCase1.TC_43098" />
+			<class name="htmlTestCase1.TC_44757" /> -->
+
+
+
+
+
+
+
+		</classes>
+	</test>
+</suite>  

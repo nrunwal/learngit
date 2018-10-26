@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+
+
+
+<suite name="HTML_Automation">
+	<listeners>
+		<listener class-name="utill.TestListener" />
+		<listener class-name="utill.TestStatistics" />
+	</listeners>
+	<test name="HTML_Certification">
+		<parameter name="browser" value="chrome" />
+		<parameter name="OS" value="mac" />
+		<classes>
+			<class name="htmlTestCase.Base" />
+ <class name="htmlTestCase.TC_16713" />
+			 <class name="htmlTestCase.TC_16518" />
+			
+			 <!-- <class name="htmlTestCase.TC_16711" /> -->
+			 <class name="htmlTestCase.TC_16776" /> 
+			 <class name="htmlTestCase.TC_19818" /> 
+			 <class name="htmlTestCase.TC_29797" /> 
+			 <class name="htmlTestCase.TC_38865" /> 
+			 <class name="htmlTestCase.TC_40520" /> 
+			 <class name="htmlTestCase.TC_42239" /> 
+			 <class name="htmlTestCase.TC_43067" /> 
+			 <class name="htmlTestCase.TC_44182" /> 
+			 <class name="htmlTestCase.TC_44954" /> 
+			 <class name="htmlTestCase.TC_45323" /> 
+			 <class name="htmlTestCase.TC_45856" /> 
+			 <class name="htmlTestCase.TC_45858" /> 
+			 <class name="htmlTestCase.TC_45859" /> 
+			 <class name="htmlTestCase.TC_45860" /> 	 
+			
+			
+			 <class name="htmlTestCase.TC_45857" />
+			 <class name="htmlTestCase1.TC_33800" /> 
+			 <class name="htmlTestCase1.TC_38950" /> 
+			 <class name="htmlTestCase1.TC_41655" /> 
+			 <class name="htmlTestCase1.TC_42215" /> 
+			 <class name="htmlTestCase1.TC_43098" /> 
+			 
+			<class name="htmlTestCase1.TC_44204" />
+			<class name="htmlTestCase1.TC_42831" />
+			<class name="htmlTestCase1.TC_42215" />
+			<class name="htmlTestCase1.TC_41311" />
+			<!--<class name="htmlTestCase1.TC_45861" />-->
+			<!-- <class name="htmlTestCase1.TC_39241" /> -->
+			<class name="htmlTestCase1.TC_44183" />
+			<!-- <class name="htmlTestCase1.TC_39065" /> -->
+			<class name="htmlTestCase1.TC_38799" />
+			<class name="htmlTestCase1.TC_30464" />
+			<class name="htmlTestCase1.TC_29792" />
+			<class name="htmlTestCase1.TC_29665" />
+			<!-- <class name="htmlTestCase1.TC_29153" /> -->
+			<class name="htmlTestCase1.TC_29107" />
+			<class name="htmlTestCase1.TC_28652" />
+			
+			
+			<class name="htmlTestCase1.TC_28633" />
+			<class name="htmlTestCase1.TC_28631" />
+			<class name="htmlTestCase1.TC_28629" />
+			<class name="htmlTestCase1.TC_28627" />
+			<!-- <class name="htmlTestCase1.TC_28608" /> -->
+			<class name="htmlTestCase1.TC_28601" />
+			
+			<!-- <class name="htmlTestCase1.TC_41418" /> -->
+			<class name="htmlTestCase1.TC_28600" />
+			<class name="htmlTestCase1.TC_28599" />
+			<class name="htmlTestCase1.TC_28598" /> 
+
+			<class name="htmlTestCase.TC_28191" /> 
+			<class name="htmlTestCase.TC_28190" />
+			<class name="htmlTestCase.TC_28189" /> 
+			<class name="htmlTestCase.TC_25310" /> 		
+ 
+			<class name="htmlTestCase1.TC_16735" />
+			<class name="htmlTestCase1.TC_16734" />
+			<class name="htmlTestCase1.TC_16733" />
+			<class name="htmlTestCase1.TC_16732" />
+			<class name="htmlTestCase1.TC_16731" />
+			<class name="htmlTestCase1.TC_16730" />
+			<class name="htmlTestCase1.TC_16725" />
+			<class name="htmlTestCase1.TC_16729" />	
+			<class name="htmlTestCase1.TC_16716" />
+			<class name="htmlTestCase1.TC_16783" />
+			<class name="htmlTestCase1.TC_16784" />
+
+ 			<class name="htmlTestCase.TC_16793" /> 
+			<class name="htmlTestCase1.TC_16782" /> 
+			<class name="htmlTestCase1.TC_16779" /> 
+			<class name="htmlTestCase.TC_16778" /> 
+			<class name="htmlTestCase1.TC_16791" /> 
+			<class name="htmlTestCase1.TC_16781" /> 
+			<class name="htmlTestCase.TC_16771" />
+			<class name="htmlTestCase.TC_16772" />
+			<class name="htmlTestCase.TC_16773" />
+			<class name="htmlTestCase.TC_16774" />
+			<class name="htmlTestCase.TC_16775" />
+			<class name="htmlTestCase.TC_16787" />
+			<class name="htmlTestCase.TC_16788" />
+			<class name="htmlTestCase.TC_16790" /> 
+			<class name="htmlTestCase.TC_16789" />
+			
+			<class name="htmlTestCase1.TC_16541" />
+			<!-- <class name="htmlTestCase1.TC_16539" /> -->
+			<class name="htmlTestCase1.TC_16533" />
+			<class name="htmlTestCase1.TC_16534" />
+			<class name="htmlTestCase1.TC_16535" />
+			<class name="htmlTestCase1.TC_16538" />
+			<class name="htmlTestCase1.TC_16537" />  
+			
+			<class name="htmlTestCase.TC_16540" /> 
+			<class name="htmlTestCase.TC_16546" />
+			
+			<class name="htmlTestCase.TC_28564" />
+			<class name="htmlTestCase.TC_28536" />
+			<class name="htmlTestCase.TC_28157" />
+			<class name="htmlTestCase.TC_30308" />
+			<class name="htmlTestCase.TC_28156" />
+			<class name="htmlTestCase.TC_28134" /> 
+			<class name="htmlTestCase.TC_27896" /> 
+			<class name="htmlTestCase.TC_27937" />
+
+			<class name="htmlTestCase.TC_16717" />
+			<class name="htmlTestCase.TC_16718" />
+			<class name="htmlTestCase.TC_16723" />
+			<class name="htmlTestCase.TC_16738" />
+			<class name="htmlTestCase.TC_16715" />
+			<!--	Anmol -->
+			<class name="htmlTestCase.TC_18365" />
+			<class name="htmlTestCase.TC_16533" />
+    		<class name="htmlTestCase.TC_18322" />
+			<class name="htmlTestCase.TC_16606" /> 
+			<!--	Anmol -->
+			
+			<!--          Niharika -->
+            <class name="htmlTestCase1.TC_16527" />
+			<class name="htmlTestCase1.TC_16529" />
+			<class name="htmlTestCase1.TC_16531" />
+			<class name="htmlTestCase1.TC_16536" />
+			<class name="htmlTestCase1.TC_16542" />
+			<!--           Niharika -->	
+
+			<!--          Yogesh -->
+            <class name="htmlTestCase.TC_16546" />
+			<class name="htmlTestCase.TC_16549" />
+			<class name="htmlTestCase.TC_16544" />
+			<class name="htmlTestCase.TC_17123" />
+			<class name="htmlTestCase.TC_17118" />
+			<class name="htmlTestCase.TC_28505" />
+			<class name="htmlTestCase.TC_28584" />
+			<class name="htmlTestCase.TC_44208" />
+			<!--           Yogesh -->			
+	<!--          Abhishek -->
+			<class name="htmlTestCase1.TC_16550" />
+			<class name="htmlTestCase1.TC_28589" /> 
+			<!--          Abhishek -->
+			
+			<!--          Print  -->
+			<class name="htmlTestCase.TC_16711" />
+			<class name="htmlTestCase.TC_16571" />
+			<class name="htmlTestCase1.TC_41628" />
+			<class name="htmlTestCase1.TC_44757" />
+			<class name="htmlTestCase1.TC_44994" />
+			<class name="htmlTestCase.TC_30011" />
+			<class name="htmlTestCase.TC_16576" />
+			<class name="htmlTestCase.TC_16575" />
+			<class name="htmlTestCase.TC_16568" />
+			<class name="htmlTestCase.TC_16564" />
+			<class name="htmlTestCase.TC_16562" /> 
+			<class name="htmlTestCase.TC_21416" /> 
+		 	<class name="htmlTestCase.TC_16712" /> 
+			<class name="htmlTestCase.TC_16706" />
+			<class name="htmlTestCase.TC_16705" />  
+			<class name="htmlTestCase.TC_16704" /> 
+			<class name="htmlTestCase.TC_16702" /> 
+			<class name="htmlTestCase.TC_16701" /> 
+			<class name="htmlTestCase.TC_16700" /> 
+			<class name="htmlTestCase.TC_16699" /> 
+			<class name="htmlTestCase.TC_20130" />
+			<class name="htmlTestCase.TC_16697" />
+			<class name="htmlTestCase.TC_16696" />
+			<class name="htmlTestCase.TC_16695" />
+			<class name="htmlTestCase.TC_16577" />
+			<class name="htmlTestCase.TC_16574" />
+			<class name="htmlTestCase.TC_16570" />
+			<class name="htmlTestCase.TC_16569" />
+			<class name="htmlTestCase.TC_16567" />
+			<class name="htmlTestCase.TC_16566" />
+			<class name="htmlTestCase.TC_16563" />	
+			
+		<!-- Suriti -->
+			<class name="htmlTestCase.TC_25616" />
+			<class name="htmlTestCase.TC_28192" />
+			<class name="htmlTestCase.TC_28193" />
+			<class name="htmlTestCase.TC_28194" />
+			<class name="htmlTestCase.TC_16680" />
+			<class name="htmlTestCase.TC_16679" />
+			<class name="htmlTestCase.TC_16678" />
+			<class name="htmlTestCase.TC_16677" />
+			<class name="htmlTestCase.TC_16676" />
+			<class name="htmlTestCase.TC_16675" />
+			<class name="htmlTestCase.TC_16674" />
+			<class name="htmlTestCase.TC_16673" />
+			<class name="htmlTestCase.TC_16672" />
+			<class name="htmlTestCase.TC_16671" />
+			<class name="htmlTestCase.TC_16670" />
+			<class name="htmlTestCase.TC_16669" />
+<!-- 			<class name="htmlTestCase.TC_16707" />
+ -->
+			<!-- Ankit -->
+			<class name="htmlTestCase.TC_16746" />
+			<class name="htmlTestCase.TC_16748" />
+			<class name="htmlTestCase.TC_16766" />
+			<class name="htmlTestCase.TC_16767" />
+			<class name="htmlTestCase.TC_16768" />
+			<class name="htmlTestCase.TC_16769" />
+			<class name="htmlTestCase.TC_16770" />
+			<class name="htmlTestCase.TC_16777" />
+			<class name="htmlTestCase.TC_16780" />
+			<class name="htmlTestCase.TC_16785" />
+			<class name="htmlTestCase.TC_16786" />
+			<class name="htmlTestCase.TC_16794" />
+			<class name="htmlTestCase.TC_17115" />
+			<class name="htmlTestCase.TC_17116" />
+			<class name="htmlTestCase.TC_17117" />
+			<class name="htmlTestCase.TC_17120" />
+			<class name="htmlTestCase.TC_17121" />
+			<class name="htmlTestCase.TC_17122" />
+			<class name="htmlTestCase.TC_17124" />
+			<class name="htmlTestCase.TC_17126" />
+			<class name="htmlTestCase.TC_17127" />
+			<class name="htmlTestCase.TC_16652" />
+			<class name="htmlTestCase.TC_16653" />
+			<class name="htmlTestCase.TC_16654" />
+			<class name="htmlTestCase.TC_16664" />
+			<class name="htmlTestCase.TC_16739" />
+			<class name="htmlTestCase.TC_16740" />
+			<class name="htmlTestCase.TC_16741" />
+			<class name="htmlTestCase.TC_16743" />
+			<class name="htmlTestCase.TC_16580" />
+			<class name="htmlTestCase.TC_16587" />
+			<class name="htmlTestCase.TC_16594" />
+			<class name="htmlTestCase.TC_16595" />
+			<class name="htmlTestCase.TC_16596" />
+			<class name="htmlTestCase.TC_16598" />
+			<class name="htmlTestCase.TC_16600" />
+			<class name="htmlTestCase.TC_16602" />
+			<class name="htmlTestCase.TC_16604" />
+			<class name="htmlTestCase.TC_16524" />
+			<class name="htmlTestCase.TC_16526" />
+			<class name="htmlTestCase.TC_16528" />
+			<class name="htmlTestCase.TC_16532" />
+			<class name="htmlTestCase.TC_16543" />
+			<class name="htmlTestCase.TC_16545" />
+			<class name="htmlTestCase.TC_16551" />
+			
+			<!-- Ankit -->
+			<class name="htmlTestCase.TC_21150" />
+			<class name="htmlTestCase.TC_23128" />
+			<class name="htmlTestCase.TC_23226" />
+			<class name="htmlTestCase.TC_27306" />
+			<class name="htmlTestCase.TC_23080" />
+
+			<!-- Suriti -->
+			<class name="htmlTestCase.TC_23224" />
+			<class name="htmlTestCase.TC_27323" />
+			
+				<!-- Niharika-->
+			<!--<class name="htmlTestCase.TC_20968" />-->
+			<class name="htmlTestCase.TC_21071" />
+			<class name="htmlTestCase.TC_27934" />
+			<class name="htmlTestCase.TC_28195" />
+			<class name="htmlTestCase.TC_28196" />
+			<class name="htmlTestCase.TC_28197" />
+			
+				<!-- Yogesh-->
+			<class name="htmlTestCase.TC_28256" />
+			<class name="htmlTestCase.TC_28585" />
+			<class name="htmlTestCase.TC_44321" />
+			<class name="htmlTestCase.TC_18318" />
+			<class name="htmlTestCase.TC_20766" />
+			<class name="htmlTestCase.TC_20819" />
+			<class name="htmlTestCase.TC_20173" />
+			<!-- (ie Only) -->
+			<!-- <class name="htmlTestCase.TC_16523" /> <class name="htmlTestCase.TC_16547" 
+				/> <class name="htmlTestCase.TC_16548" /> -->
+			
+	
+		</classes>
+	</test>
+</suite>  

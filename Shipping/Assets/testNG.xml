@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+
+
+
+<suite name="Win7_Chrome">
+<listeners>
+       <listener class-name="utill.TestListener"/>
+       <listener class-name="utill.TestStatistics"/>
+  </listeners>
+  <test name="HTML_Certification">
+        <parameter name="browser" value="chrome"/>
+         <parameter name="OS" value="win"/>
+    <classes>
+<class name="htmlTestCase.Base" /> 
+ 
+         
+         <class name="htmlTestCase.TC_45856" />
+         <class name="htmlTestCase.TC_45857" />
+         <class name="htmlTestCase.TC_45858" />
+         <class name="htmlTestCase.TC_45859" />
+         <class name="htmlTestCase.TC_45860" />
+                 
+    
+        
+ 
+         
+        
+        
+         
+         
+ 
+         
+         
+          
+                  
+          
+          
+     
+     
+     </classes>
+  </test>
+</suite>  
